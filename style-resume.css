@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans|Overlock);
+
+a {
+  color: rgb(58,119,237); /* google blue */
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(130,59,168); /* link purple */
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(77,146,65); /* google green */
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(204,64,55); /* google red */
+  text-decoration: underline;
+}
+
+a.link {
+  text-decoration: underline;
+}
+
+a.hide {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.hide:hover {
+  color: rgb(77,146,65); /* google green */
+  text-decoration: underline;
+}
+
+a.hide:active {
+  color: rgb(204,64,55); /* google red */
+  text-decoration: underline;
+}
+
+h1.name {
+  border-top: 2px solid green;
+  border-left: 3px solid green;
+  border-right: 3px solid green;
+  font-family: "overlock", cursive;
+  font-size: 32pt;
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 3px;
+  background-color: rgb(244,244,244); /* atom grey */
+}
+
+h1.line {
+  border-bottom: 2px solid green;
+  border-left: 3px solid green;
+  border-right: 3px solid green;
+  font-family: "overlock", cursive;
+  font-size: 32pt;
+  float: left;
+  padding-left: 8px;
+  padding-right: 20px;
+  margin-top: 3px;
+  background-color: rgb(244,244,244); /* atom grey */
+}
+
+h1 {
+  text-shadow: 2px 2px #bfbfbf;
+  margin-left: 15%;
+  margin-right: 50%;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h1.name:first-letter {
+    font-size: 150%;
+}
+
+h1.line:first-letter {
+  font-size: 150%;
+}
+
+body {
+  line-height: 1.5em;
+  background-color: rgb(247,197,67);
+  margin-left: 343px;
+  margin-right: 343px;
+  margin-top: 30px;
+  padding-right: 50px;
+  padding-left: 5px;
+  display: inline-block;
+  font-family: "droid sans", sans-serif;
+  font-size: 12pt;
+}
+
+div {
+  max-height: auto;
+  width: 400px;
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: visible;
+}
+
+section div {
+  border: 3px solid green;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+nav {
+  margin-bottom: 37.4px;
+}
+
+li.nav {
+  display: inline-block;
+  margin: 0px;
+  padding: 1px;
+  text-align: justify;
+  border-right: 1px solid #222;
+}
+
+li {
+  list-style-position: inside;
+}
+h2 {
+  border-style: outset;
+  font-family: "overlock", cursive;
+}
+
+h3 {
+  border-bottom: 1px solid #000;
+  font-family: "overlock", cursive;
+}
+
+address {
+  font-style: normal;
+  line-height: 1.3em;
+}
+
+footer {
+  color: rgb(244,244,244);
+}
+
+abbr {
+  border-bottom-style: dotted;
+  border-bottom-width: thin;
+}
+
+@media print {
+  body {
+    font-size: 12pt;
+    font-family: serif;
+    margin-left: 0.5in;
+    margin-right: 0.5in;
+    margin-top: 0in;
+    line-height: 0.2in;
+  }
+
+  nav {
+    display: none;
+  }
+
+  h2 {
+    border-style: hidden;
+    display: none;
+  }
+
+  h3 {
+    font-family: serif;
+  }
+
+  section div {
+    border-style: none;
+  }
+
+  #writing-examples {
+    display: none;
+  }
+
+  #contact-information {
+    display: inherit;
+    font-family: serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a.hide {
+    display: none;
+  }
+
+  a.link {
+    display: none;
+  }
+
+  div p {
+    display: none;
+  }
+
+  footer {
+    color: #222;
+  }
+
+  abbr {
+    display: none;
+  }
+}
