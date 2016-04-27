@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Abel);
+
+body {
+  font-family: "Abel", sans-serif;
+}
+
+body#splash {
+  background-image: url(images/rain-in-foreground.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-color: #222;
+}
+
+body#photo {
+  background-image: url(images/nam-cover-black.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+body#writing{
+  background-image: url(images/rain-in-foreground-black.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  color: red;
+}
+
+h1 {
+  font-size: 42pt;
+  font-family: "Crimson text", serif;
+}
+
+h1.resume {
+  text-align: center;
+}
+
+h2 {
+  font-size: 28pt;
+  font-family: "Crimson text", serif;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+h2.resume {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+nav {
+  font-size: 18pt;
+  font-family: "Crimson text", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+nav#home {
+  margin: 5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  padding: 1em;
+  background: transparent;
+  color: black;
+}
+
+nav a:hover {
+  border-bottom: 1px dashed black;
+  color: gray;
+}
+
+nav a:active {
+  color: red;
+}
+
+a:visited {
+  color: orange;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+section.photos {
+  float: left;
+  padding: 1em 1em .2em;
+  background: #ccc;
+  width: 35%;
+  margin: 1em;
+}
+
+section.writing {
+  background-color: white;
+  padding: 1em;
+  color: black;
+  float: left;
+  width: 35%;
+  max-height: 20em;
+  overflow: scroll;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2em;
+}
+
+footer {
+  text-align: center;
+}
+
+p.quote {
+  font-style: italic;
+}
+
+p.name {
+  font-weight: bolder;
+}

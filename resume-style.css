@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Abel);
+
+body {
+  font-family: "Abel", sans-serif;
+}
+
+h1 {
+  font-size: 42pt;
+  font-family: "Crimson text", serif;
+}
+
+h1.resume {
+  text-align: center;
+}
+
+h2 {
+  font-size: 28pt;
+  font-family: "Crimson text", serif;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+h2.resume {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: orange;
+}
+
+address {
+  font-style: normal;
+}
+
+@print
