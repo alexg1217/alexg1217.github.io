@@ -22,7 +22,7 @@ body#photo {
 }
 
 body#writing{
-  background-image: url(images/rain-in-foreground-black.jpg);
+  background-image: url(rain-in-foreground-black.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
