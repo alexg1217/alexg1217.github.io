@@ -5,7 +5,7 @@ body {
 }
 
 body#splash {
-  background-image: url(images/rain-in-foreground.jpg);
+  background-image: url(alexg1217.github.io/images/rain-in-foreground.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body#splash {
 }
 
 body#photo {
-  background-image: url(images/nam-cover-black.jpg);
+  background-image: url(alexg1217.github.io/images/nam-cover-black.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body#photo {
 }
 
 body#writing{
-  background-image: url(images/rain-in-foreground-black.jpg);
+  background-image: url(alexg1217.github.io/images/rain-in-foreground-black.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
