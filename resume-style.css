@@ -45,4 +45,20 @@ address {
   font-style: normal;
 }
 
-@print
+@media print {
+  body {
+    margin: 0.5in;
+    background: transparent;
+    color: black;
+    font-size: 12pt;
+    font-family: serif;
+  }
+
+  nav {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

@@ -2,3 +2,16 @@
   font-size: 16pt;
   float: clear;
 }
+
+section.photos {
+  background: transparent;
+}
+
+section.writing {
+  width: 75%;
+}
+
+nav a {
+  margin: 0;
+  padding: 0;
+}
