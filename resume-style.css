@@ -61,4 +61,8 @@ address {
   a {
     text-decoration: none;
   }
+
+  section#writing-examples {
+    display: none;
+  }
 }
