@@ -11,6 +11,7 @@ body#splash {
   background-repeat: no-repeat;
   background-position: 100%;
   background-color: #fff;
+  image-resolution: from-image;
 }
 
 body#photo {
@@ -19,6 +20,7 @@ body#photo {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 100%;
+  image-resolution: from-image;
 }
 
 body#writing{
@@ -28,6 +30,7 @@ body#writing{
   background-repeat: no-repeat;
   background-position: 100%;
   color: red;
+  image-resolution: from-image;
 }
 
 h1 {
