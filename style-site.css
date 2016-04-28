@@ -10,7 +10,7 @@ body#splash {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 100%;
-  background-color: #fff;
+  background-color: #000;
 }
 
 body#photo {
@@ -19,6 +19,7 @@ body#photo {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 100%;
+  color: red;
 }
 
 body#writing{
