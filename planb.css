@@ -10,7 +10,7 @@ body#splash {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 100%;
-  background-color: #000;
+  background-color: rgb(223,223,224);
 }
 
 body#photo {
@@ -19,7 +19,6 @@ body#photo {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 100%;
-  color: red;
 }
 
 body#writing{
@@ -98,13 +97,9 @@ nav li {
 section.photos {
   float: left;
   padding: 1em 1em .2em;
-  border: 1pt solid black;
-  width: 40%;
+  background: #ccc;
+  width: 35%;
   margin: 1em;
-}
-
-p.photos {
-    width: %;
 }
 
 section.writing {
@@ -113,7 +108,7 @@ section.writing {
   color: black;
   float: left;
   width: 35%;
-  max-height: 25em;
+  max-height: 20em;
   overflow: scroll;
   margin-left: 5%;
   margin-right: 5%;
